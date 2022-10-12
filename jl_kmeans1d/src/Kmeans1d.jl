@@ -4,7 +4,7 @@ using TyPython.CPython
 
 # wrote by pabloferz and Raf in https://discourse.julialang.org/t/c-code-much-faster-than-julia-how-can-i-optimize-it/87868
 # which is a translation of C++ code https://github.com/dstein64/kmeans1d/blob/master/kmeans1d/_core.cpp
-# modify(songjhaha): use Int insteat of Int32; support AbstractFloat; return clusters first
+# modify(songjhaha): use Int instead of Int32; support AbstractFloat; return clusters first.
 
 function smawk!(result, rows, cols, allocs, lookup, k)
     length(rows) == 0 && return result
