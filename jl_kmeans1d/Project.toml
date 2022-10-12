@@ -1,0 +1,7 @@
+name = "Kmeans1d"
+uuid = "6b72cf25-ae05-4424-a22d-66fb947ca709"
+authors = ["songjhaha <songjh96@foxmail.com>"]
+version = "0.1.0"
+
+[deps]
+TyPython = "9c4566a2-237d-4c69-9a5e-9d27b7d0881b"
