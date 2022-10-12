@@ -2,7 +2,7 @@
 
 A Python library with an implementation of k-means clustering on 1D data.
 
-The core algorithm is wrote on julia by pabloferz and Raf in [discourse](https://discourse.julialang.org/t/c-code-much-faster-than-julia-how-can-i-optimize-it/87868). Which is a translation version of [C++ code](https://github.com/dstein64/kmeans1d/blob/master/kmeans1d/_core.cpp).
+The core algorithm is wrote on julia by pabloferz and Raf in [discourse](https://discourse.julialang.org/t/c-code-much-faster-than-julia-how-can-i-optimize-it/87868), which is a translation of [C++ code](https://github.com/dstein64/kmeans1d/blob/master/kmeans1d/_core.cpp).
 
 Here we use [jnumpy](https://github.com/Suzhou-Tongyuan/jnumpy) for exporting julia function to python function.
 
